@@ -1,0 +1,22 @@
+%osname
+centos
+%osver
+5
+%osarch
+x86_64
+
+%appname
+mysql-server
+%description
+MySQL Server.
+%version
+1.0.0
+
+%repositories
+
+%packages
+mysql-server
+
+%changelog
+* Fri Jun 6 2008 James Thompson <james@ubercart.org>
+- First draft of Application EZ Template.

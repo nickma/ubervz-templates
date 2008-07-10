@@ -1,0 +1,6 @@
+README
+
+The following is a collection of Virtuozzo EZ Templates developed to make 
+provisioning certain routine types of containers much easier. These templates
+have been designed primarily for use in a managed hosting environment as
+opposed to the more traditional unmanaged VPS market.

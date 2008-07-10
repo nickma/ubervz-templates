@@ -1,0 +1,26 @@
+%osname
+centos
+%osver
+5
+%osarch
+x86_64
+
+%appname
+centos-ds
+%description
+CentOS Directory Server.
+%version
+1.0.0
+%release
+1
+
+%repositories
+http://dev.centos.org/centos/5/testing/x86_64/
+
+%packages
+java-1.6.0-openjdk
+centos-ds
+
+%changelog
+* Tue Jun 24 2008 James Thompson <james@ubercart.org>
+- First draft of Application EZ Template.
