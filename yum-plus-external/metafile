@@ -1,0 +1,28 @@
+%osname
+centos
+%osver
+5
+%osarch
+x86_64
+
+%appname
+yum-plus-external
+%description
+Yum package management system plus extras and external repository optimizations.
+%version
+1.0.0
+%release
+1
+
+%repositories
+
+%packages
+yum
+yum-utils
+yum-fastestmirror
+yum-protectbase
+yum-priorities
+
+%changelog
+* Thu Jul 10 2008 James Thompson <james@ubercart.org>
+- First draft of Application EZ Template.
