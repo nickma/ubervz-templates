@@ -10,7 +10,9 @@ drupal5-hosting
 %description
 A complete Drupal 5 hosting environment packaged as a Virtuozzo Application EZ Template.
 %version
-1.0.5
+1.1.0
+%release
+1
 
 %repositories
 http://pkgrepo.vittitow.local/custom/software
@@ -31,9 +33,11 @@ php-mbstring
 php-mcrypt
 php-mhash
 vsftpd
-drupal5
+drupal5-5.8
 
 %changelog
+* Wed Jul 16 2008 James Thompson <james@ubercart.org>
+- Updated to depend explicitly on Drupal 5.8.
 * Fri Jun 13 2008 James Thompson <james@ubercart.org>
 - Chaged repositories to use all local repos.
 * Wed Jun 4 2008 James Thompson <james@ubercart.org>
