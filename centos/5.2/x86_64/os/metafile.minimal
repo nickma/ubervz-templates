@@ -1,0 +1,95 @@
+%osname
+centos
+
+%osver
+5.2
+
+%osarch
+x86_64
+
+%setname
+minimal
+
+%version
+1.0.0
+%release
+2.vittitow
+%summary
+CentOS 5.2 minimal set OS template
+%license
+Public Domain
+
+%packages
+# system
+authconfig
+bash
+crontabs
+diffutils
+rootfiles
+info
+passwd
+rpm
+man
+man-pages
+tmpwatch
+
+# services
+iproute
+iptables
+jwhois
+openssh-clients
+openssh-server
+sendmail
+sendmail-cf
+sendmail-doc
+xinetd
+
+# languages
+perl
+
+# editors
+ed
+less
+vim-minimal
+nano
+
+#utils
+binutils
+fetchmail
+gnupg
+gzip
+make
+mailx
+ncompress
+ntsysv
+lsof
+portmap
+tcpdump
+telnet
+time
+traceroute
+setuptool
+sharutils
+slocate
+sudo
+unzip
+libutempter
+wget
+which
+tar
+
+# virtuozzo
+vzdummy-kernel-el5
+vzdev
+vzdummy-glibc
+vzdummy-jre-fc6
+vzdummy-apache
+
+
+%description
+CentOS 5.2 minimal set packaged as a Virtuozzo template.
+
+%changelog
+* Mon Sep 8 2008 James Thompson <james@ubercart.org>
+- Added sendmail packages to combat barfing of exim install during template caching. (Release 2)
+- First draft of Operating System EZ Template.
