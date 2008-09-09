@@ -1,0 +1,37 @@
+%osname
+centos
+
+%osver
+5
+
+%osarch
+x86
+
+%appname
+centos-ds
+
+%summary
+CentOS Directory Server
+
+%description
+CentOS Directory Server packaged as a Virtuozzo template.
+
+%version
+1.0.0
+
+%release
+1
+
+%license
+Public Domain
+
+%repositories
+http://dev.centos.org/centos/5/testing/i386/
+
+%packages
+java-1.6.0-openjdk
+centos-ds
+
+%changelog
+* Tue Sep 9 2008 James Thompson <james@ubercart.org>
+- First draft of Application EZ Template.

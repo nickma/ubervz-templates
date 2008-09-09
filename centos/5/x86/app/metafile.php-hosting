@@ -1,0 +1,44 @@
+%osname
+centos
+
+%osver
+5
+
+%osarch
+x86
+
+%appname
+php-hosting
+
+%summary
+PHP hosting environment
+
+%description
+PHP hosting environment packaged as a Virtuozzo template.
+
+%version
+1.0.0
+
+%release
+1
+
+%license
+Public Domain
+
+%packages
+httpd
+mod_ssl
+php
+php-mysql
+php-gd
+php-xml
+php-xmlrpc
+php-soap
+php-mbstring
+php-mcrypt
+php-mhash
+vsftpd
+
+%changelog
+* Tue Sep 9 2008 James Thompson <james@ubercart.org>
+- First draft of Application EZ Template.

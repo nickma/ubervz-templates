@@ -1,0 +1,42 @@
+%osname
+centos
+
+%osver
+5
+
+%osarch
+x86
+
+%appname
+ruby-hosting
+
+%summary
+Ruby hosting environment
+
+%description
+Ruby hosting environment packaged as a Virtuozzo template.
+
+%version
+1.0.0
+
+%release
+1
+
+%license
+Public Domain
+
+%packages
+httpd
+mod_ssl
+mysql
+vsftpd
+ruby
+ruby-devel
+ruby-docs
+ruby-rdoc
+ruby-ri
+ruby-irb
+
+%changelog
+* Tue Sep 9 2008 James Thompson <james@ubercart.org>
+- First draft of Application EZ Template.
