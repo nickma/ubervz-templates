@@ -2,10 +2,10 @@
 centos
 
 %osver
-5.2
+5
 
 %osarch
-x86_64
+x86
 
 %setname
 minimal
@@ -13,9 +13,9 @@ minimal
 %version
 1.0.0
 %release
-2.vittitow
+1.vittitow
 %summary
-CentOS 5.2 minimal set OS template
+CentOS 5 minimal set OS template
 %license
 Public Domain
 
@@ -87,9 +87,11 @@ vzdummy-apache
 
 
 %description
-CentOS 5.2 minimal set packaged as a Virtuozzo template.
+CentOS 5 minimal set packaged as a Virtuozzo template.
 
 %changelog
+* Tue Sep 9 2008 James Thompson <james@ubercart.org>
+- Updated to be a CentOS 5 template.
 * Mon Sep 8 2008 James Thompson <james@ubercart.org>
-- Added sendmail packages to combat barfing of exim install during template caching. (Release 2)
+- Added	sendmail packages to combat barfing of exim install during template caching. (Release 2)
 - First draft of Operating System EZ Template.

@@ -2,20 +2,17 @@
 centos
 
 %osver
-5.2
+5
 
 %osarch
 x86_64
-
-%setname
-unmanaged
 
 %version
 1.0.0
 %release
 1.vittitow
 %summary
-CentOS 5.2 OS template
+CentOS 5 OS template
 %license
 Public Domain
 
@@ -110,7 +107,6 @@ libutempter
 wget
 which
 tar
-yum
 
 # virtuozzo
 vzdummy-kernel-el5
@@ -128,21 +124,22 @@ centos-5
 
 %upgradable_version
 4
-5
 
 %mirrorlist
+$SW_SERVER/download/mirrors/centos-5
+$SW_SERVER/download/mirrors/updates-released-ce5
 
 %repositories
-$SW_SERVER/ez/packages/centos/5/x86_64/os/
-$SW_SERVER/ez/packages/centos/5/x86_64/updates/
 $CE_SERVER/centos/5.2/os/x86_64
 $CE_SERVER/centos/5.2/updates/x86_64
 $CE_SERVER/centos/5.2/addons/x86_64
 $CE_SERVER/centos/5.2/extras/x86_64
 
 %description
-CentOS 5.2 packaged as a Virtuozzo template.
+CentOS 5 packaged as a Virtuozzo template.
 
 %changelog
+* Tue Sep 9 2008 James Thompson <james@ubercart.org>
+- Updated to be a CentOS 5 template.
 * Mon Sep 8 2008 James Thompson <james@ubercart.org>
 - First draft of Operating System EZ Template.

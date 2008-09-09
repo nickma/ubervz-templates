@@ -2,7 +2,7 @@
 centos
 
 %osver
-5.2
+5
 
 %osarch
 x86
@@ -12,7 +12,7 @@ x86
 %release
 1.vittitow
 %summary
-CentOS 5.2 OS template
+CentOS 5 OS template
 %license
 Public Domain
 
@@ -124,7 +124,6 @@ centos-5
 
 %upgradable_version
 4
-5
 
 %mirrorlist
 $SW_SERVER/download/mirrors/centos-5
@@ -137,8 +136,10 @@ $CE_SERVER/centos/5.2/addons/i386
 $CE_SERVER/centos/5.2/extras/i386
 
 %description
-CentOS 5.2 packaged as a Virtuozzo template.
+CentOS 5 packaged as a Virtuozzo template.
 
 %changelog
+* Tue Sep 9 2008 James Thompson <james@ubercart.org>
+- Updated to be a generic CentOS 5 template.
 * Mon Sep 8 2008 James Thompson <james@ubercart.org>
 - First draft of Operating System EZ Template.
