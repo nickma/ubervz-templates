@@ -8,7 +8,7 @@ centos
 x86
 
 %appname
-centos-ds
+directory-server
 
 %summary
 CentOS Directory Server
