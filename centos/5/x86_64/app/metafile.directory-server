@@ -1,18 +1,29 @@
 %osname
 centos
+
 %osver
 5
+
 %osarch
 x86_64
 
 %appname
 centos-ds
+
+%summary
+CentOS Directory Server
+
 %description
-CentOS Directory Server.
+CentOS Directory Server packaged as a Virtuozzo template.
+
 %version
 1.0.0
+
 %release
 1
+
+%license
+Public Domain
 
 %repositories
 http://dev.centos.org/centos/5/testing/x86_64/
@@ -22,5 +33,7 @@ java-1.6.0-openjdk
 centos-ds
 
 %changelog
+* Tue Sep 9 2008 James Thompson <james@ubercart.org>
+- Updated template to reflect new home in project tree.
 * Tue Jun 24 2008 James Thompson <james@ubercart.org>
 - First draft of Application EZ Template.

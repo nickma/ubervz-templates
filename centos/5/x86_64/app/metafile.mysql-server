@@ -1,22 +1,35 @@
 %osname
 centos
+
 %osver
 5
+
 %osarch
 x86_64
 
 %appname
 mysql-server
+
+%summary
+MySQL Server
+
 %description
-MySQL Server.
+MySQL Server packaged as a Virtuozzo template.
+
 %version
 1.0.0
 
-%repositories
+%release
+1
+
+%license
+Public Domain
 
 %packages
 mysql-server
 
 %changelog
+* Tue Sep 9 2008 James Thompson <james@ubercart.org>
+- Updated to reflect new home in project tree.
 * Fri Jun 6 2008 James Thompson <james@ubercart.org>
 - First draft of Application EZ Template.
