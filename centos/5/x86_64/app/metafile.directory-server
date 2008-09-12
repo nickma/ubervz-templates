@@ -17,7 +17,7 @@ CentOS Directory Server
 CentOS Directory Server packaged as a Virtuozzo template.
 
 %version
-1.0.0
+1.1.0
 
 %release
 1
@@ -31,8 +31,11 @@ http://dev.centos.org/centos/5/testing/x86_64/
 %packages
 java-1.6.0-openjdk
 centos-ds
+openldap-clients
 
 %changelog
+* Fri Sep 12 2007 James Thompson <james@ubercart.org>
+- Added openldap-clients package so that the server actually has some CLI management tools.
 * Tue Sep 9 2008 James Thompson <james@ubercart.org>
 - Updated template to reflect new home in project tree.
 * Tue Jun 24 2008 James Thompson <james@ubercart.org>
