@@ -1,0 +1,97 @@
+%osname
+centos
+
+%osver
+5
+
+%osarch
+x86
+
+%appname
+gnome-desktop
+
+%summary
+GNOME Desktop Environment
+
+%description
+GNOME Desktop Environment packaged as a Virtuozzo template.
+
+%version
+1.0.0
+
+%release
+1
+
+%license
+Public Domain
+
+%packages
+# Mandatory Pacakages
+GConf2-devel
+gtk2-devel
+atk-devel
+ORBit2-devel
+libglade2-devel
+pango-devel
+libgnomeui-devel
+libgnomecanvas-devel
+libgnome-devel
+libbonobo-devel
+glib2-devel
+libbonoboui-devel
+gnome-vfs2-devel
+
+# Default Packages
+libgnomeprintui22-devel
+evolution-data-server-devel
+pygtk2-devel
+eel2-devel
+gail-devel
+devhelp
+bug-buddy
+hal-devel
+libart_lgpl-devel
+libgtop2-devel
+gnome-panel-devel
+gnome-desktop-devel
+at-spi-devel
+gtk-doc
+glade2
+gdm
+
+# Optional Packages
+#libgnome-java
+#gob2
+#libgtk-java
+#libglade-java
+#libgconf-java
+
+# Graphical Internet
+evolution
+firefox
+nspluginwrapper
+gnome-themes
+pidgin	
+java-1.4.2-gcj-compat-plugin
+evolution-webcal
+ekiga
+evolution-connector
+
+# Office/Productivity Packages
+openoffice.org-impress
+planner
+openoffice.org-writer
+openoffice.org-math
+openoffice.org-calc
+evince
+openoffice.org-graphicfilter
+openoffice.org-draw
+openoffice.org-xsltfilter
+
+# Package Management
+yum
+yumex
+
+%changelog
+* Wed Sep 17 2008 James Thompson <james@ubercart.org>
+- First draft of Application EZ Template.
