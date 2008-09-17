@@ -1,0 +1,36 @@
+%osname
+centos
+
+%osver
+5
+
+%osarch
+x86
+
+%appname
+openvpn
+
+%summary
+OpenVPN SSL VPN Server
+
+%description
+OpenVPN SSL VPN Server packaged as a Virtuozzo template.
+
+%version
+1.0.0
+
+%release
+1
+
+%license
+Public Domain
+
+%repositories
+http://download.fedora.redhat.com/pub/epel/5/i386/
+
+%packages
+openvpn
+
+%changelog
+* Wed Sep 17 2008 James Thompson <james@ubercart.org>
+- First draft of Application EZ Template.
