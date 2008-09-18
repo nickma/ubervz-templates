@@ -1,0 +1,34 @@
+%osname
+centos
+
+%osver
+5
+
+%osarch
+x86_64
+
+%appname
+yum
+
+%summary
+Yum Package Manager
+
+%description
+Yum Package Manager packaged as a Virtuozzo template.
+
+%version
+1.0.0
+
+%release
+1
+
+%license
+Public Domain
+
+%packages
+yum
+yum-priorities
+
+%changelog
+* Thu Sep 18 2008 James Thompson <james@ubercart.org>
+- First draft of Application EZ Template.
