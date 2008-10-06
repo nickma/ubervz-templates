@@ -17,7 +17,7 @@ GNOME Desktop Environment
 GNOME Desktop Environment packaged as a Virtuozzo template.
 
 %version
-1.2.0
+1.3.0
 
 %release
 1
@@ -47,7 +47,7 @@ xorg-x11-twm
 xorg-x11-apps
 pirut
 openssh-askpass
-rhn-setup-gnome
+#rhn-setup-gnome
 firstboot
 system-config-display
 gdm
@@ -62,8 +62,8 @@ system-config-services
 vnc-server
 system-config-date
 glx-utils
-pup
-system-config-printer-gui
+#pup
+#system-config-printer-gui
 wdaemon
 authconfig-gtk
 system-config-network
@@ -135,7 +135,7 @@ firefox
 nspluginwrapper
 gnome-themes
 pidgin	
-java-1.4.2-gcj-compat-plugin
+#java-1.4.2-gcj-compat-plugin
 evolution-webcal
 ekiga
 evolution-connector
