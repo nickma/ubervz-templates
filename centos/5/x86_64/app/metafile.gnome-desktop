@@ -17,7 +17,7 @@ GNOME Desktop Environment
 GNOME Desktop Environment packaged as a Virtuozzo template.
 
 %version
-1.0.0
+1.1.0
 
 %release
 1
@@ -67,15 +67,16 @@ gdm
 #libgconf-java
 
 # Graphical Internet
-evolution
+#evolution
 firefox
+thunderbird
 nspluginwrapper
 gnome-themes
 pidgin	
-java-1.4.2-gcj-compat-plugin
-evolution-webcal
+#java-1.4.2-gcj-compat-plugin
+#evolution-webcal
 ekiga
-evolution-connector
+#evolution-connector
 
 # Office/Productivity Packages
 openoffice.org-impress
@@ -93,5 +94,8 @@ yum
 yumex
 
 %changelog
+* Mod Oct 6 2007 James Thompson <james@ubercart.org>
+- Commented out some packages that caused errors on install.
+- Added Thunderbird for email client.
 * Wed Sep 17 2008 James Thompson <james@ubercart.org>
 - First draft of Application EZ Template.
