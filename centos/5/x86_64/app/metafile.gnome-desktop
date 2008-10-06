@@ -17,59 +17,15 @@ GNOME Desktop Environment
 GNOME Desktop Environment packaged as a Virtuozzo template.
 
 %version
-1.3.0
+1.5.0
 
 %release
-1
+3
 
 %license
 Public Domain
 
 %packages
-# X Mandatory Packages
-xorg-x11-server-Xorg
-xorg-x11-fonts-misc
-xorg-x11-fonts-ISO8859-1-75dpi
-xorg-x11-fonts-100dpi
-xorg-x11-fonts-75dpi
-xorg-x11-xauth
-desktop-backgrounds-basic
-xorg-x11-fonts-ISO8859-1-100dpi
-xorg-x11-xinit
-xorg-x11-fonts-Type1
-xorg-x11-xfs
-xorg-x11-fonts-truetype
-bitmap-fonts
-xorg-x11-drivers
-
-# X Default Packages
-xorg-x11-twm
-xorg-x11-apps
-pirut
-openssh-askpass
-#rhn-setup-gnome
-firstboot
-system-config-display
-gdm
-rhgb
-synaptics
-krb5-auth-dialog
-system-config-soundcard
-xterm
-dejavu-lgc-fonts
-linuxwacom
-system-config-services
-vnc-server
-system-config-date
-glx-utils
-#pup
-#system-config-printer-gui
-wdaemon
-authconfig-gtk
-system-config-network
-bitstream-vera-fonts
-system-config-users
-
 # Mandatory Pacakages
 nautilus
 control-center
@@ -85,7 +41,6 @@ gnome-user-docs
 vino
 gnome-themes
 gedit
-gnome-power-manager
 evince
 gnome-system-monitor
 gtkhtml3
@@ -95,8 +50,6 @@ at-spi
 gnome-volume-manager
 gok
 gnome-audio
-dvd+rw-tools
-nautilus-cd-burner
 esc
 gnome-user-share
 gtk2-engines
@@ -111,55 +64,45 @@ nautilus-open-terminal
 file-roller
 gnome-mag
 gnome-utils
-nautilus-sendto
+#nautilus-sendto
 eog
 gnome-screensaver
 hal-gnome
 gnome-media
 gnome-vfs2-smb
 notify-daemon
-gnome-pilot
 orca
 
 # Optional Packages
-#gnome-bluetooth
 gconf-editor
-#gnome-pilot-conduits
-#compiz
 gnome-keyring-manager
-#dasher
 
 # Graphical Internet
 evolution
 firefox
+thunderbird
 nspluginwrapper
 gnome-themes
-pidgin	
+pidgin
 #java-1.4.2-gcj-compat-plugin
-evolution-webcal
 ekiga
-evolution-connector
 
 # Office/Productivity Packages
-openoffice.org-impress
 planner
+openoffice.org-impress
 openoffice.org-writer
 openoffice.org-math
 openoffice.org-calc
-evince
 openoffice.org-graphicfilter
 openoffice.org-draw
 openoffice.org-xsltfilter
 
-# Package Management
-yum
-yumex
 
 %changelog
 * Mon Oct 6 2008 James Thompson <james@ubercart.org>
 - Commented out some packages that caused errors on install.
 - Added Thunderbird for email client.
 - Fixed package list (I'm an idiot, packaged were for GNOME dDevel not Desktop).
+- Pruned package list.
 * Wed Sep 17 2008 James Thompson <james@ubercart.org>
 - First draft of Application EZ Template.
-
