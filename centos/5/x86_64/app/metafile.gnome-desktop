@@ -17,7 +17,7 @@ GNOME Desktop Environment
 GNOME Desktop Environment packaged as a Virtuozzo template.
 
 %version
-1.1.0
+1.2.0
 
 %release
 1
@@ -26,57 +26,119 @@ GNOME Desktop Environment packaged as a Virtuozzo template.
 Public Domain
 
 %packages
+# X Mandatory Packages
+xorg-x11-server-Xorg
+xorg-x11-fonts-misc
+xorg-x11-fonts-ISO8859-1-75dpi
+xorg-x11-fonts-100dpi
+xorg-x11-fonts-75dpi
+xorg-x11-xauth
+desktop-backgrounds-basic
+xorg-x11-fonts-ISO8859-1-100dpi
+xorg-x11-xinit
+xorg-x11-fonts-Type1
+xorg-x11-xfs
+xorg-x11-fonts-truetype
+bitmap-fonts
+xorg-x11-drivers
+
+# X Default Packages
+xorg-x11-twm
+xorg-x11-apps
+pirut
+openssh-askpass
+rhn-setup-gnome
+firstboot
+system-config-display
+gdm
+rhgb
+synaptics
+krb5-auth-dialog
+system-config-soundcard
+xterm
+dejavu-lgc-fonts
+linuxwacom
+system-config-services
+vnc-server
+system-config-date
+glx-utils
+pup
+system-config-printer-gui
+wdaemon
+authconfig-gtk
+system-config-network
+bitstream-vera-fonts
+system-config-users
+
 # Mandatory Pacakages
-GConf2-devel
-gtk2-devel
-atk-devel
-ORBit2-devel
-libglade2-devel
-pango-devel
-libgnomeui-devel
-libgnomecanvas-devel
-libgnome-devel
-libbonobo-devel
-glib2-devel
-libbonoboui-devel
-gnome-vfs2-devel
+nautilus
+control-center
+yelp
+gnome-terminal
+gnome-panel
+gnome-applets
+gnome-session
+metacity
 
 # Default Packages
-libgnomeprintui22-devel
-evolution-data-server-devel
-pygtk2-devel
-eel2-devel
-gail-devel
-devhelp
-bug-buddy
-hal-devel
-libart_lgpl-devel
-libgtop2-devel
-gnome-panel-devel
-gnome-desktop-devel
-at-spi-devel
-gtk-doc
-glade2
-gdm
+gnome-user-docs
+vino
+gnome-themes
+gedit
+gnome-power-manager
+evince
+gnome-system-monitor
+gtkhtml3
+alacarte
+gnome-backgrounds
+at-spi
+gnome-volume-manager
+gok
+gnome-audio
+dvd+rw-tools
+nautilus-cd-burner
+esc
+gnome-user-share
+gtk2-engines
+NetworkManager-gnome
+gimp-print-utils
+desktop-printing
+im-chooser
+gnome-netstatus
+gnopernicus
+sabayon-apply
+nautilus-open-terminal
+file-roller
+gnome-mag
+gnome-utils
+nautilus-sendto
+eog
+gnome-screensaver
+hal-gnome
+gnome-media
+gnome-vfs2-smb
+notify-daemon
+gnome-pilot
+orca
 
 # Optional Packages
-#libgnome-java
-#gob2
-#libgtk-java
-#libglade-java
-#libgconf-java
+#gnome-bluetooth
+gconf-editor
+#gnome-pilot-conduits
+#compiz
+gnome-keyring-manager
+#dasher
 
 # Graphical Internet
-#evolution
+evolution
 firefox
-thunderbird
 nspluginwrapper
 gnome-themes
 pidgin	
-#java-1.4.2-gcj-compat-plugin
-#evolution-webcal
+java-1.4.2-gcj-compat-plugin
+evolution-webcal
 ekiga
-#evolution-connector
+evolution-connector
 
 # Office/Productivity Packages
 openoffice.org-impress
@@ -94,8 +156,10 @@ yum
 yumex
 
 %changelog
-* Mod Oct 6 2007 James Thompson <james@ubercart.org>
+* Mon Oct 6 2008 James Thompson <james@ubercart.org>
 - Commented out some packages that caused errors on install.
 - Added Thunderbird for email client.
+- Fixed package list (I'm an idiot, packaged were for GNOME dDevel not Desktop).
 * Wed Sep 17 2008 James Thompson <james@ubercart.org>
 - First draft of Application EZ Template.
+
